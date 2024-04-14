@@ -7,7 +7,7 @@ if (isset($_POST['id'])) {
     if (deleteItem($id)) {
         echo "uspesne odstranene";
     } else {
-        echo "item sa neodstranil uspesne";
+        echo "item sa nepodaril odstranit";
     }
 } else {
     echo "No 'id' parameter provided.";

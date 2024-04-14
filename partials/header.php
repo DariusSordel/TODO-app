@@ -13,12 +13,11 @@
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/iDB.js"></script>
+    <script src="assets/js/function.js"></script>
+
     <script src="assets/js/handleForm.js"></script>
-    <script src="assets/js/close.js"></script>
 
 </head>
 <body>
-    <header>
-        <p>retard header</p>
-    </header>
-

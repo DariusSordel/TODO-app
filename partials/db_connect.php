@@ -6,7 +6,7 @@ $user = DB_USER;
 $password = DB_PASSWORD;
 $database = DB_NAME;
 
-//$test_text = "";
+
 
 $mysqli = new mysqli($host, $user, $password, $database);
 // Check the connection
