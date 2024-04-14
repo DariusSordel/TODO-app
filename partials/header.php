@@ -18,11 +18,6 @@
     <script src="assets/js/function.js"></script>
 
     <script src="assets/js/handleForm.js"></script>
-    <script src="assets/js/close.js"></script>
 
 </head>
 <body>
-    <header>
-        <p>retard header</p>
-    </header>
-
