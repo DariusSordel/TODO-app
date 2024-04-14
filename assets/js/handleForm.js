@@ -1,12 +1,12 @@
-$(document).ready(function (){
+$(document).ready(function () {
     $(document).on("submit", "#form1", function (event) {
         event.preventDefault(); // toto preventuje event aby bol submited defaultne
 
         var formData = $(this).serialize() //zoberie data z formu a da ich do formatu pre server
 
         $.ajax({ //ajax request posle v pozadi na server ktory pojde na URL
-            url:"partials/insert.php",
-            type:"POST",
+            url: "partials/process.php",
+            type: "POST",
             data: formData,
             success: function (response) { // callback funkcia spusti sa ked server odpovie, tu vieme upravit stranku bez reloadu
                 var responseData = JSON.parse(response);
@@ -20,7 +20,7 @@ $(document).ready(function (){
         })
     })
 
-    $(document).on("click",".btn-close", function () {
+    $(document).on("click", ".btn-close", function () {
         var itemId = $(this).val();
         var confirmDelete = confirm("Are you sure you want to delete this item?");
         var $button = $(this);
@@ -43,5 +43,5 @@ $(document).ready(function (){
                 }
             });
         }
-     });
+    });
 })

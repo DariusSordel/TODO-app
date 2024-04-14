@@ -20,7 +20,7 @@
         ?>
     </ul>
 
-    <form id="form1" class="col-sm-6" method="post" action="partials/insert.php">
+    <form id="form1" class="col-sm-6" method="post" action="partials/process.php">
         <div class="form-group">
             <textarea class="form-control" name="message" id="text" rows="3" required></textarea>
         </div>

@@ -26,13 +26,14 @@ function insertData($form)
     }
 }
 
-function getItems() {
+function getItems()
+{
     global $mysqli;
-    $sql =  "SELECT id, text FROM items";
+    $sql = "SELECT id, text FROM items";
     $result = $mysqli->query($sql);
     if ($result->num_rows == 0) {
         echo "<li class='list-group-item empty-message'>Your list is empty :(</li>";
-    }else {
+    } else {
         return $result->fetch_all(MYSQLI_ASSOC);
     }
 }
@@ -58,7 +59,9 @@ function deleteItem($id)
         echo "prepare failed: " . $mysqli->error;
     }
 }
-function getLastId() {
+
+function getLastId()
+{
     global $mysqli;
     $sql = "SELECT id FROM items ORDER BY id DESC LIMIT 1";
     $result = $mysqli->query($sql);

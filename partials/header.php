@@ -10,12 +10,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script src="assets/js/iDB.js"></script>
-    <script src="assets/js/function.js"></script>
 
     <script src="assets/js/handleForm.js"></script>
 
