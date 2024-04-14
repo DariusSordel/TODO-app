@@ -1,6 +1,6 @@
 # TODO app 
 
-Táto verzia nefunguje, pre funk4n=u verziu použite working=version tree.
+Táto verzia nefunguje, pre funkčnú verziu použite (working-version) tree.
 
 projekt je zameraný na moje testovanie a učenie sa technológií
 
